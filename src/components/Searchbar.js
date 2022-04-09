@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 
 const Searchbar = (props) => {
-    const [search, setSearch] = useState("dito")
+    const [search, setSearch] = useState(" ")
     const {onSearch} = props
     const onChangeHandler = (e) => {
         setSearch(e.target.value)
@@ -27,3 +27,4 @@ const Searchbar = (props) => {
 }
 
 export default Searchbar;
+
